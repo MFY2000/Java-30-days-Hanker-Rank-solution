@@ -1,14 +1,17 @@
- 
-
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
 public class Solution {
+
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        String str = scan.next();
-        scan.close();
+        Scanner in = new Scanner(System.in);
+        String S = in.next();
+        in.close();
         try {
-            int num = Integer.parseInt(str);
+            int num = Integer.parseInt(S);
             System.out.println(num);
         } catch (NumberFormatException e) {
             System.out.println("Bad String");
