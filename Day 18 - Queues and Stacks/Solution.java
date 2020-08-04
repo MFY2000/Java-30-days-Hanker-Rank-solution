@@ -1,13 +1,8 @@
- 
-
 import java.io.*;
 import java.util.*;
 
-// ArrayDeque "is likely to be faster than Stack when used as a stack, and faster than LinkedList when used as a queue." - Java documentation
-
 public class Solution {
-    /* Stack - using an ArrayDeque */
-    ArrayDeque<Character> dequeAsStack = new ArrayDeque();
+  ArrayDeque<Character> dequeAsStack = new ArrayDeque();
     
     void pushCharacter(char ch) {
         dequeAsStack.push(ch);
@@ -54,7 +49,7 @@ public class Solution {
             }
         }
 
-        // Finally, print whether string s is palindrome or not.
+        //Finally, print whether string s is palindrome or not.
         System.out.println( "The word, " + input + ", is " 
                            + ( (!isPalindrome) ? "not a palindrome." : "a palindrome." ) );
     }
