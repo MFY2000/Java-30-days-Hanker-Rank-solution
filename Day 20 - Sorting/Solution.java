@@ -1,6 +1,8 @@
- 
-
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
 public class Solution {
     private static int swaps = 0;
